@@ -704,3 +704,20 @@ video {
   --tw-text-opacity: 1;
   color: rgb(96 199 139 / var(--tw-text-opacity));
 }
+
+@media (min-width: 640px){
+  .sm\:justify-end{
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
