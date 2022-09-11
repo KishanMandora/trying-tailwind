@@ -16,7 +16,7 @@
 }
 
 .card-img {
-  @apply w-full h-60 object-contain;
+  @apply w-full h-60 object-contain hover:scale-110 transition ease-linear duration-200;
 }
 
 .details {
@@ -42,5 +42,5 @@
 .link-btn {
   @apply text-secondary-dark py-2 px-4 border-secondary-light
    border-b-2 md:border-2 md:rounded-full hover:text-slate-200 
-   hover:bg-secondary-dark  tracking-wider;
+   hover:bg-secondary-dark  tracking-wider transition ease-linear duration-300;
 }
