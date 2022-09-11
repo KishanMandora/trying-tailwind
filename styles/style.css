@@ -2,3 +2,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card{
+    @apply bg-slate-100 rounded-md overflow-hidden shadow-md relative;
+}
+
+.card-img{
+    @apply w-full h-60 object-cover;
+}
+
+.badge{
+    @apply absolute top-0 mt-4 ml-4 bg-blue-100 p-2 pl-3 pr-3 rounded-full shadow-lg;
+}
+
+.txt-dark{
+    @apply font-bold;
+}
+
+.txt-light{
+    @apply block text-stone-600;
+}
+
+.title{
+    @apply font-bold mt-12 pb-2 border-b border-stone-200;
+}
