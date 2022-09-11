@@ -591,8 +591,24 @@ video {
   margin-top: 2rem;
 }
 
+.inline-block{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
+}
+
+.h-6{
+  height: 1.5rem;
+}
+
+.w-6{
+  width: 1.5rem;
+}
+
+.w-4{
+  width: 1rem;
 }
 
 .justify-center{
