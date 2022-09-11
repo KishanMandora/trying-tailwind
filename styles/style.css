@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --letter-clr: "#0A3F36";
+}
+
 .body {
   @apply text-stone-700 font-oswald md:text-lg grid md:grid-cols-3;
 }
