@@ -10,6 +10,10 @@ module.exports = {
           dark: "#011627",
         },
       },
+      fontFamily: {
+        oswald: ["Oswald"],
+        dirt: ["Rubik Dirt"],
+      },
     },
   },
   plugins: [],
