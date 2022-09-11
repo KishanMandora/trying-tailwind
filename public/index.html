@@ -13,22 +13,25 @@
     <title>Pokedex</title>
   </head>
   <body class="body">
-    <header>
-      <nav>
+    <header class="bg-primary flex justify-end">
+      <nav class="p-4">
         <div>
           <h1
-            class="uppercase p-4 border-b border-stone-100 font-dirt font-semibold text-xl"
+            class="uppercase p-4 border-b border-secondary-dark font-dirt font-light text-4xl"
           >
             Pokedex
           </h1>
         </div>
         <div>
           <ul>
-            <li class="text-stone-800 font-bold">
-              <a href="#">
+            <li class="text-stone-800 font-bold inline">
+              <a
+                href="#"
+                class="flex justify-end border-secondary-light border-r-4 my-2 px-4"
+              >
                 <span> Home </span>
                 <svg
-                  class="w-4"
+                  class="w-4 ml-4"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -45,10 +48,13 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="#"
+                class="flex justify-end border-primary border-r-4 my-2 px-4"
+              >
                 <span> About </span>
                 <svg
-                  class="w-4"
+                  class="w-4 ml-4"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -65,10 +71,13 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="#"
+                class="flex justify-end border-primary border-r-4 my-2 px-4"
+              >
                 <span> Contact </span>
                 <svg
-                  class="w-4"
+                  class="w-4 ml-4"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -89,7 +98,7 @@
       </nav>
     </header>
     <main class="px-16 py-6 md:col-span-2">
-      <div class="flex justify-center md:justify-end gap-4">
+      <div class="flex justify-center md:justify-end gap-4 mb-8">
         <a href="#" class="link-btn">Log In</a>
         <a href="#" class="link-btn"> Sign Up </a>
       </div>
