@@ -3,12 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.body{
+    @apply text-stone-700 font-oswald md:text-lg grid md:grid-cols-3
+}
+
+.container{
+    @apply grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10;
+}
+
 .card{
     @apply bg-slate-100 rounded-md overflow-hidden shadow-md relative mb-4;
 }
 
 .card-img{
-    @apply w-full h-60 object-cover;
+    @apply w-full h-60 object-contain;
 }
 
 .details{

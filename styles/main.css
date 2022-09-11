@@ -553,8 +553,38 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.col-span-2{
-  grid-column: span 2 / span 2;
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
 }
 
 .mt-8{
@@ -565,20 +595,16 @@ video {
   display: flex;
 }
 
-.grid{
-  display: grid;
-}
-
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .justify-center{
   justify-content: center;
 }
 
 .gap-4{
   gap: 1rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .border-2{
@@ -623,13 +649,9 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.font-oswald{
-  font-family: Oswald;
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .font-dirt{
@@ -663,11 +685,6 @@ video {
   text-transform: uppercase;
 }
 
-.text-stone-700{
-  --tw-text-opacity: 1;
-  color: rgb(68 64 60 / var(--tw-text-opacity));
-}
-
 .text-stone-800{
   --tw-text-opacity: 1;
   color: rgb(41 37 36 / var(--tw-text-opacity));
@@ -681,6 +698,44 @@ video {
 .text-secondary-dark{
   --tw-text-opacity: 1;
   color: rgb(1 22 39 / var(--tw-text-opacity));
+}
+
+.body{
+  display: grid;
+  font-family: Oswald;
+  --tw-text-opacity: 1;
+  color: rgb(68 64 60 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .body{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.container{
+  display: grid;
+  gap: 2.5rem;
+}
+
+@media (min-width: 768px){
+  .container{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .card{
@@ -698,8 +753,8 @@ video {
 .card-img{
   height: 15rem;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .details{
@@ -742,35 +797,13 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:col-span-2{
-    grid-column: span 2 / span 2;
-  }
-
-  .sm\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .sm\:justify-end{
     justify-content: flex-end;
-  }
-
-  .sm\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }
 
 @media (min-width: 768px){
   .md\:col-span-2{
     grid-column: span 2 / span 2;
-  }
-
-  .md\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }

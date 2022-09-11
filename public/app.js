@@ -3,37 +3,37 @@ const featuredPokemons = [
   {
     name: "Charizard",
     ability: "Blaze",
-    type: "Fire 🔥",
+    type: "🔥",
     imgUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
   },
   {
     name: "Staryu",
     ability: "Natural Cure",
-    type: "Water 🌊",
+    type: "🌊",
     imgUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png",
   },
   {
     name: "Marshadow",
     ability: "Technician",
-    type: "Ghost 👻",
+    type: "👻",
     imgUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/802.png",
   },
   {
     name: "Dracovish",
     ability: "Water Absorb",
-    type: "Water 🌊",
+    type: "🌊",
     imgUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/882.png",
   },
   {
     name: "Rillaboom",
     ability: "Overgrow",
-    type: "Grass 🌱",
+    type: "🌱",
     imgUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/812.png",
   },
   {
     name: "Gurdurr",
     ability: "Sheer Force",
-    type: "Fighting 💪",
+    type: "💪",
     imgUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/533.png",
   },
 ];
