@@ -1,4 +1,7 @@
 const featured = document.getElementById("featured");
+const burger = document.getElementById("burger");
+const menu = document.getElementById("menu");
+
 const featuredPokemons = [
   {
     name: "Charizard",
@@ -82,5 +85,12 @@ function generateCard(arr, appendElement) {
     appendElement.appendChild(card);
   });
 }
-
 generateCard(featuredPokemons, featured);
+
+burger.addEventListener("click", () => {
+  if (menu.classList.contains("hidden")) {
+    menu.classList.remove("hidden");
+  } else {
+    menu.classList.add("hidden");
+  }
+});

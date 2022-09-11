@@ -14,16 +14,31 @@
   </head>
   <body class="body">
     <header class="bg-primary flex justify-end">
-      <nav class="p-4">
-        <div>
-          <h1
-            class="uppercase p-4 border-b border-secondary-dark font-dirt font-light text-4xl"
-          >
+      <nav class="p-4 w-full">
+        <div
+          class="border-b border-secondary-dark flex justify-center items-center"
+        >
+          <h1 class="uppercase p-4 font-dirt font-light text-4xl md:items-end">
             Pokedex
           </h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 md:hidden ml-auto cursor-pointer"
+            id="burger"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
         </div>
         <div>
-          <ul>
+          <ul id="menu" class="hidden md:block">
             <li class="text-stone-800 font-bold inline">
               <a
                 href="#"
