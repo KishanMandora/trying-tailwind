@@ -4,11 +4,15 @@
 @tailwind utilities;
 
 .card{
-    @apply bg-slate-100 rounded-md overflow-hidden shadow-md relative;
+    @apply bg-slate-100 rounded-md overflow-hidden shadow-md relative mb-4;
 }
 
 .card-img{
     @apply w-full h-60 object-cover;
+}
+
+.details{
+    @apply m-4;
 }
 
 .badge{
