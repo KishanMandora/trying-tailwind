@@ -1,44 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Rubik+Dirt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Rubik+Dirt&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.body{
-    @apply text-stone-700 font-oswald md:text-lg grid md:grid-cols-3
+.body {
+  @apply text-stone-700 font-oswald md:text-lg grid md:grid-cols-3;
 }
 
-.container{
-    @apply grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10;
+.container {
+  @apply grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10;
 }
 
-.card{
-    @apply bg-slate-100 rounded-md overflow-hidden shadow-md relative mb-4;
+.card {
+  @apply bg-slate-100 rounded-md overflow-hidden shadow-md relative mb-4;
 }
 
-.card-img{
-    @apply w-full h-60 object-contain;
+.card-img {
+  @apply w-full h-60 object-contain;
 }
 
-.details{
-    @apply m-4;
+.details {
+  @apply m-4;
 }
 
-.badge{
-    @apply absolute top-0 mt-4 ml-4 bg-blue-100 p-2 pl-3 pr-3 rounded-full shadow-lg;
+.badge {
+  @apply absolute top-0 mt-4 ml-4 bg-blue-100 p-2 pl-3 pr-3 rounded-full shadow-lg;
 }
 
-.txt-dark{
-    @apply font-bold;
+.txt-dark {
+  @apply font-bold;
 }
 
-.txt-light{
-    @apply block text-stone-600;
+.txt-light {
+  @apply block text-stone-600;
 }
 
-.title{
-    @apply font-bold mt-12 pb-2 border-b border-stone-200;
+.title {
+  @apply font-bold mt-12 pb-2 border-b border-stone-200;
 }
 
-.link-btn{
-    @apply text-secondary-dark py-2 px-4 border-secondary-light border-b-2 md:border-2 md:rounded-full tracking-wider;
+.link-btn {
+  @apply text-secondary-dark py-2 px-4 border-secondary-light
+   border-b-2 md:border-2 md:rounded-full hover:text-slate-200 
+   hover:bg-secondary-dark  tracking-wider;
 }

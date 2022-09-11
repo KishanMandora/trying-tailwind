@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Rubik+Dirt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Rubik+Dirt&display=swap");
 
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
@@ -591,10 +591,6 @@ video {
   margin-top: 2rem;
 }
 
-.inline-block{
-  display: inline-block;
-}
-
 .flex{
   display: flex;
 }
@@ -603,12 +599,12 @@ video {
   height: 1.5rem;
 }
 
-.w-6{
-  width: 1.5rem;
-}
-
 .w-4{
   width: 1rem;
+}
+
+.w-6{
+  width: 1.5rem;
 }
 
 .justify-center{
@@ -809,6 +805,13 @@ video {
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
   color: rgb(1 33 58 / var(--tw-text-opacity));
+}
+
+.link-btn:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 33 58 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
